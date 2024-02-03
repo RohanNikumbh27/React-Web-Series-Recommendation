@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family:'ui-monospace';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("https://wallpapers.com/images/hd/black-and-white-aesthetic-collage-aos1ph5ku1xjog9d.jpg"); */
+  background-image: url("https://picsum.photos/200/300") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(20px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.allcards {
+  display:inline-flex;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
+
+.mainHeading {
+  color: rgb(255, 0, 0);
+  backdrop-filter: blur(50px);
+  align-content: center;
+  margin: 0px;
+  height: 60px;
+  text-align: center;
+  margin: 0;
+  display: grid;
+  width: 100%;
+}
+
+.Headdiv {
+  height: 60px;
+  text-align: center;
+  margin: 0;
+  display: grid;
+  vertical-align: middle;
+  background-image: url("https://wallpapers.com/images/hd/black-and-white-aesthetic-collage-aos1ph5ku1xjog9d.jpg");
+ 
+  width: 100%;
+} 
+
+.card{
+  color: aliceblue;
+  max-height: 322px;
+  background-color: #62626299;
+  overflow: hidden;
+  margin: auto;
+  display: inline-flex;
+  padding: 10px;
+  flex-flow: column;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px #000000;
+  opacity: 0.9;
+}
+
+
+.allcards :hover {
+  transform: scale(1.02);
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  opacity: 1;
+}
+.card_img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+.card_info {
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for overflow text */
+
+}
+
+h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+
+
+.card_info a{
+  margin: 5px;
+  display: contents;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.card_info a button{
+  display: block;
+  border: transparent;
+  background: #bbbbbb;
+  border-radius: 5px;
+  padding: 4px 7px;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  
+  
+}
+.card_info a button:hover {
+  background-color: rgb(214, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
